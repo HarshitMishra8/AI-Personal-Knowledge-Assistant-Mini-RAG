@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.local
+
+# Runtime data (SQLite database, model cache)
+data/
+*.db
+vector_store/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+*.tsbuildinfo
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
